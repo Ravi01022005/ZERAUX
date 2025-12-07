@@ -13,7 +13,7 @@ export default function Landing() {
     top: "30%",
     right: "clamp(20px, -25vw, 200px)", 
     width: "clamp(300px, 45vw, 600px)",
-    background: "transparent",
+    background: "balck",
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
