@@ -53,7 +53,7 @@ const data = [
 
 <div className="d-flex justify-content-around mb-5" style={{backgroundColor:"transparent"}}>
 {[1,2,3,4].map((a,i)=>(
-<div className="inner col-2 d-flex flex-column justify-content-center align-items-center"style={{height:"200px",border:"1px solid #FFC97A",backgroundColor:"black",fontFamily: "Playfair Display, Georgia, serif",fontWeight:"lighter"}}>
+<div  key={i}  className="inner col-2 d-flex flex-column justify-content-center align-items-center"style={{height:"200px",border:"1px solid #FFC97A",backgroundColor:"black",fontFamily: "Playfair Display, Georgia, serif",fontWeight:"lighter"}}>
 <div style={{color:"#FFC97A",}} >{principles[0][i]}</div>
 <div className="c text-center m-3 text-light">{principles[1][i]}</div>
 </div>
