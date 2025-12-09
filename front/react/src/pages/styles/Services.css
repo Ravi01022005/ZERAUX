@@ -1,16 +1,4 @@
-.bt {
-  background: linear-gradient(
-      90deg,
-      #a0750a 0%,
-      #c59c3d 25%,
-      #f7e597 50%,
-      #b8923a 75%,
-      #a0750a 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-div{
+
+#font{
     font-family: "Playfair Display, Georgia, serif";
 }
